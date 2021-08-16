@@ -1,17 +1,14 @@
 import React from "react";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
 import HelloComponent from "./HelloComponent.jsx";
+import RigoImage from "./RigoImage.jsx";
 
 //create your first component
 const Home = () => {
 	return (
 		<div className="text-center mt-5">
 			<HelloComponent />
-			<p>
-				<img src={rigoImage} />
-			</p>
+			<RigoImage />
 			<a href="#" className="btn btn-success">
 				If you see this green button... bootstrap is working
 			</a>
